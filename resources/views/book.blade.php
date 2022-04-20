@@ -8,6 +8,7 @@
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 </head>
 <body>
+    hahahahahahha
     
 <div class="container">
     <h1>Laravel 8 Crud with Ajax</h1>
