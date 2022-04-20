@@ -77,7 +77,7 @@
         serverSide: true,
         ajax: "{{ route('books.index') }}",
         columns: [
-            {data: 'title', name: 'title'},
+            {data: 'id', name: 'id'},
             {data: 'title', name: 'title'},
             {data: 'author', name: 'author'},
             {data: 'action', name: 'action', orderable: false, searchable: false},
