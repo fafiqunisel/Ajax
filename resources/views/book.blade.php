@@ -37,14 +37,14 @@
                 <form id="bookForm" name="bookForm" class="form-horizontal">
                    <input type="hidden" name="book_id" id="book_id">
                     <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Title</label>
+                        <label for="name" class="col-sm-2 control-label">Title / Tajuk</label>
                         <div class="col-sm-12">
                             <input type="text" class="form-control" id="title" name="title" placeholder="Enter Title" value="" maxlength="50" required="">
                         </div>
                     </div>
      
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Details</label>
+                        <label class="col-sm-2 control-label">Details / Butiran</label>
                         <div class="col-sm-12">
                             <textarea id="author" name="author" required="" placeholder="Enter Author" class="form-control"></textarea>
                         </div>
