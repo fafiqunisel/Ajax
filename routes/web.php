@@ -18,8 +18,8 @@ use App\Http\Controllers\BooksController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+});// default route
 
-Route::resource('books', BooksController::class);
+Route::resource('books', BooksController::class); // route based on resource
 
 

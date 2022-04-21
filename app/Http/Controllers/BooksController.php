@@ -14,7 +14,8 @@ class BooksController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(Request $request)
-    {
+    { // modify with ajax format
+        // display data
    
         $books = Book::latest()->get();
         
@@ -44,7 +45,7 @@ class BooksController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    { // create new data 
         Book::updateOrCreate(['id' => $request->book_id],
                 ['title' => $request->title, 'author' => $request->author]);        
    
@@ -57,7 +58,7 @@ class BooksController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {
+    {// update data
         $book = Book::find($id);
         return response()->json($book);
     }
@@ -69,7 +70,7 @@ class BooksController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
+    { // delete data
         Book::find($id)->delete();
      
         return response()->json(['success'=>'Book deleted successfully.']);

@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 class CreateBooksTable extends Migration
-{
+{ // based on data type of value.. check on sql
     /**
      * Run the migrations.
      *
