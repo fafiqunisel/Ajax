@@ -21,5 +21,5 @@ Route::get('/', function () {
 });// default route
 
 Route::resource('books', BooksController::class); // route based on resource
-
+// if masuk page lain.. create new controller
 
